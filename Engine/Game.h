@@ -25,6 +25,7 @@
 #include "Graphics.h"
 #include "Brick.h"
 #include "RectF.h"
+#include "Ball.h"
 
 class Game
 {
@@ -46,5 +47,6 @@ private:
 	/*  User Variables              */
 	Brick brick;
 	RectF rect;
+	Ball ball;
 	/********************************/
 };

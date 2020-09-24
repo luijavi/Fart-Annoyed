@@ -24,8 +24,7 @@
 Game::Game( MainWindow& wnd )
 	:
 	wnd( wnd ),
-	gfx( wnd ),
-	brick(RectF(Vec2(200.0f, 200.0f), 50.0f, 25.0f), Colors::Green)
+	gfx( wnd )
 {
 }
 
@@ -43,5 +42,4 @@ void Game::UpdateModel()
 
 void Game::ComposeFrame()
 {
-	brick.Draw(gfx);
 }
